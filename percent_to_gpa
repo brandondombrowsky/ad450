@@ -1,5 +1,4 @@
 # Calculate a student's grade percentage as a grade point average
-
 x = float(input("As a number, what is your grade percentage "))
 
 def percent_to_gpa(x):
@@ -65,7 +64,7 @@ def percent_to_gpa(x):
         return ("You earned a 1.1")
     elif x < 66 and x >= 65:
         return ("You earned a 1.0")
-    elif x < 65 and x >= 0:
+    else: 
         return ("You earned a 0.0")
 
 print(percent_to_gpa(x))
